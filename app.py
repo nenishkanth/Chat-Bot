@@ -1,6 +1,30 @@
 import streamlit as st
 import google.generativeai as genai
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://www.eweek.com/wp-content/uploads/2023/04/top-generative-ai-companies.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;  /* Full viewport height */
+        text-align: center;
+    }
+    .stApp {
+        background: transparent;
+    }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("Welcome to Generative AI")
 
 genai.configure(api_key="AIzaSyDOifuuqTuy25bgfa3rDQ9awxAFoCABdyc")
