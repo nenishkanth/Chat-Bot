@@ -5,7 +5,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("Gen-ai.jpeg");
+        background-image: url("https://www.eweek.com/wp-content/uploads/2023/04/top-generative-ai-companies.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
